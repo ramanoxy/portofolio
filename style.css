@@ -174,3 +174,12 @@ body {
     font-family: 'al';
     src: url('Font/AlteHaasGroteskBold.ttf');
 }
+@media (max-width: 480px) {
+    .navbar {
+        padding: 10px 15px;
+    }
+    .navbar a {
+        font-size: 14px;
+        margin-left: 12px;
+    }
+}
