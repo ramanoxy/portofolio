@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #1E201E;
+    color: white;
+    font-family: 'al';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+.foto {
+    width: 30px;
+    height: 30px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.rm {
+    font-size: 25px;
+}
+.navbar a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.navbar a:hover {
+    color: #697565;
+}
+.hero {
+    min-width: 400px;
+    background-color: #ECDFCC;
+    color: #3C3D37;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 15px 30px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+.hero-text, .hero-image {
+    min-width: 300px;
+    max-width: 600px;
+    flex-shrink: 0;
+}
+.hero-text h1 {
+    font-family: 'al';
+    font-size: 50px;
+    display: flex;
+}
+.hero-text p {
+    font-family: 'al';
+    font-size: 20px;
+    line-height: 1;
+    display: flex;
+    color: #697565;
+}
+.hero-image {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+.hero-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    display: block;
+}
+.tentang {
+    background-color: #ECDFCC;
+    padding: 15px 30px;
+    text-align: center;
+}
+.tentang h2 {
+    font-family: 'al';
+    font-size: 50px;
+    color: #3C3D37;
+    margin-bottom: 15px;
+}
+.tentang p {
+    font-family: 'al';
+    font-size: 20px;
+    line-height: 1;
+    color: #697565;
+}
+.skill {
+    background-color: #ECDFCC;
+    padding: 15px 30px;
+    text-align: center;
+}
+.skill h2 {
+    font-family: 'al';
+    color: #3C3D37;
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.daftar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'al';
+    font-size: 20px;
+    line-height: 1;
+    color: #697565;
+}
+.items {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+}
+.items:hover {
+    transform: scale(1.1);
+    background-color: #3C3D37;
+    color: white;
+}
+.kontak {
+    background-color: #ECDFCC;
+    padding: 15px 30px;
+    text-align: center;
+}
+.kontak h2 {
+    font-family: 'al';
+    font-size: 50px;
+    color: #3C3D37;
+    margin-bottom: 15px;
+}
+.kontak p {
+    font-family: 'al';
+    font-size: 20px;
+    line-height: 1;
+    color: #697565;
+}
+.kontak ul {
+    list-style: none;
+    padding: 0;
+}
+.kontak li {
+    font-family: 'al';
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #697565;
+}
+.kontak a {
+    text-decoration: none;
+    color: #697565;
+    font-weight: bold;
+}
+.kontak a:hover {
+    text-decoration: underline;
+}
+.footer {
+    background-color: #1E201E;
+    color: white;
+    text-align: center;
+    font-family: 'al';
+    font-size: 16px;
+    padding: 15px 30px;
+}
+@font-face {
+    font-family: 'al';
+    src: url('Font/AlteHaasGroteskBold.ttf');
+}
